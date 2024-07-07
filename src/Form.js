@@ -30,7 +30,7 @@ const Input = () => {
         text: textInput,
       };
 
-      const response = await fetch('http://127.0.0.1:5000/data', {
+      const response = await fetch('https://flask-hello-world-hazel-gamma.vercel.app/api/data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
