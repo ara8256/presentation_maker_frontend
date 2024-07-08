@@ -1,10 +1,12 @@
 import React from 'react';
 // import './Navbar.css';
 
+import logo from "./presentation_maker.png"
+
 function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        {/* <img src = {logo} style={{height:"8vh", width: "30vh" ,paddingLeft : "1vh", boxShadow:"inherit"}}/> */}Presentation Maker
+        <img src = {logo} style={{height:"8vh", width: "40vh" ,paddingLeft : "1vh", boxShadow:"inherit"}}/>
         <button
           className="navbar-toggler"
           type="button"
