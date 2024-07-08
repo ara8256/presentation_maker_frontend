@@ -30,7 +30,7 @@ const Input = () => {
         text: textInput,
       };
 
-      const response = await fetch('https://presentation-generator-alpha.vercel.app/data', {
+      const response = await fetch('https://abdulrehman123.pythonanywhere.com/data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
