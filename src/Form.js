@@ -63,7 +63,7 @@ const Input = () => {
   return (
     <div className="bg d-flex align-items-center justify-content-center">
       <div className="form-container">
-        <h1 className="form-title">Presentation Generator</h1>
+        <h1 className="form-title">Presentation Maker</h1>
 
         {loading ? (
           <div className="loader">Loading...</div> // Loader element
