@@ -30,7 +30,7 @@ const Input = () => {
         text: textInput,
       };
 
-      const response = await fetch('https://flask-hello-world-hazel-gamma.vercel.app/api/data', {
+      const response = await fetch('https://presentation-generator-alpha.vercel.app/data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
